@@ -1,0 +1,328 @@
+
+//out: ../css/styleKabinet.css
+
+/*FONTS*/
+
+@font-face {
+ font-family: 'vag';
+ src: url('../fonts/18VAG Rounded M Bold.ttf');
+}
+@font-face {
+ font-family: 'vagN';
+ src: url('../fonts/18VAG Rounded M Normal.ttf');
+}
+@font-face {
+ font-family: 'OpenSans-Light';
+ src: url('../fonts/MOpenSans-Light.ttf');
+}
+@font-face {
+ font-family: 'Quark-Bold';
+ src: url('../fonts/Quark-Bold.otf');
+}
+@font-face {
+ font-family: 'Quark-Light';
+ src: url('../fonts/Quark-Light.otf');
+}
+@font-face {
+ font-family: 'OpenSans-Italic';
+ src: url('../fonts/OpenSans-Italic.ttf');
+}
+ /*END FONTS*/
+
+img{
+   /* width:100%;*/
+   /* min-width: 100%;*/
+}
+
+body{
+    background-color: #30353c;
+}
+.outline{outline:1px solid #cc0000;}
+
+.center{text-align: center;}
+.floatL{float: left;}
+.floatR{float: right;}
+
+.band{
+    background-color: #d7d7d7;
+    height: 90px;
+    width: 100%;
+    border-top:1px solid #30353c;
+    border-bottom:1px solid #30353c;
+    h1{
+        color: #30353c;
+        font-size: 40px;
+        font-family: 'vag';
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .konvert{
+         width:56px;
+         height:43px;
+        background: url(../images/konvert.png) no-repeat;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .subpresent{
+         width:41px;
+         height:47px;
+        background: url(../images/present.png) no-repeat;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .rounds{
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        background: rgba(232, 232, 232, 0.74);
+        position: absolute;
+        top: 3px;
+        right: 3px;
+        color: #ff0000;
+        font-size: 24px;
+        font-family: 'vagN';
+        text-align: center;
+        padding-top: 6px;
+    }
+}
+.message, .present{
+    float:left;
+    border-left: 1px solid #5d6c7b;
+    background-color:#c2c2c2;
+    width:89px;
+    height: 89px;
+    position: relative;
+    
+}
+.present{border-right:1px solid #5d6c7b; }
+.men{
+    margin-top: 30px;
+    padding-left: 0;
+    img{
+    width: 370px;
+    }
+}
+
+/*===================================*/
+/*===================================*/
+.right{
+    height: 800px;
+}
+
+
+.bgCol{
+    background-color: #5d6c7b;
+}
+
+
+/*-----------list-------------------*/
+.specialProject .dropdown{
+    list-style-type:none;
+    text-transform:uppercase;
+    padding-top: 24px;
+    padding-left: 0px;
+    padding-bottom: 22px;
+    padding-right: 13px;
+    a{color:#fff!important;}
+    font-family: vag;
+    font-size: 14px;
+      width: 52px;
+}
+.specialProject .dropdown-menu{
+    max-width: 66px;
+}
+
+.specialProject{
+   
+    background-color: #f8f8f8;
+    width: 370px;
+    font-size: 17px;
+    color:#31353d;
+    font-family: vagN;
+    text-transform: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 14px;
+    padding-left: 24px;
+    a{
+        color:#31353d !important;
+        text-decoration: none;
+    }
+   
+}
+ .content .dropdown-menu{
+    width: 370px;
+      box-shadow: none;
+    a{
+        font-size: 17px;
+        padding-top: 13px;
+        padding-left: 26px;
+        
+    }
+    a:hover{
+        background-color: #333;
+    }
+}
+.specialProject .dropdown-menu li{
+    width: 370px;
+    white-space: nowrap;
+    height: 54px;
+    background-color: #d7d7d7;
+}
+.specialProject .dropdown-menu li:nth-child(even){
+     background-color: #FFF!important;
+}
+.specialProject .dropdown-menu li a:hover{
+     background-color: #333!important;
+}.specialProject .dropdown-menu a{
+     padding-bottom: 17px;
+}
+
+
+.specialProject .dropdown-menu{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0;
+    border:0;
+}
+.projects{
+        margin-top: 9px;
+    a{
+        margin-right: 26px;
+        color: #fff;
+        font-size: 18px;
+        font-family: 'vagN';
+    }
+    img{
+        width: 170px;
+        height: 170px;
+    }
+    .podrobnee{
+            padding-top: 138px;
+    }
+}
+
+/*------------------------------*/
+
+
+.userData{
+     color: #fff;
+    h2{
+        font-size: 30px;
+        font-family: 'vagN';
+        margin-top: 25px;
+        margin-bottom: 16px;
+    }
+     h3{
+        font-size: 24px;
+        font-family: 'vagN';
+        margin-top: 0px;
+    }
+    span{
+        font-size: 18px;
+        font-family: 'vagN';
+        margin-right: 9px;
+    }
+     a{
+        color: #fff;
+        font-size: 18px;
+        font-family: 'vagN';
+        margin-right: 9px;
+         text-decoration: underline
+    }
+    a:hover{text-decoration: none;}
+    p{margin-bottom:2px;}
+}
+
+.menuInformation{
+    li{
+        background-color: #d7d7d7;
+        border-bottom: 1px solid #acacac;
+        margin-left: 20px;
+    }
+}
+
+/*----------STARS--------------*/
+/*sprite with stars*/
+#reviewStars-input input:checked ~ label, #reviewStars-input label, #reviewStars-input label:hover, #reviewStars-input label:hover ~ label {
+  background: url('http://positivecrash.com/wp-content/uploads/ico-s71a7fdede6.png') no-repeat;
+}
+
+#reviewStars-input {
+  
+  /*fix floating problems*/
+  overflow: hidden;
+  *zoom: 1;
+  /*end of fix floating problems*/
+  
+  position: relative;
+  float: left;
+}
+
+#reviewStars-input input {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  
+ height: 40px;
+  width: 43px;
+  
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+#reviewStars-input input:checked ~ label {
+  background-position: 0 -40px;
+height: 40px;
+  width: 43px;
+}
+
+#reviewStars-input label {
+  background-position: 0 0;
+height: 40px;
+  width: 43px;
+  float: right;
+  cursor: pointer;
+  margin-right: 10px;
+  
+  position: relative;
+  z-index: 1;
+}
+
+#reviewStars-input label:hover, #reviewStars-input label:hover ~ label {
+  background-position: 0 -40px;
+ height: 40px;
+  width: 43px;
+}
+
+#reviewStars-input #star-0 {
+  left: 0px;
+}
+#reviewStars-input #star-1 {
+  left: 53px;
+}
+#reviewStars-input #star-2 {
+  left: 106px;
+}
+#reviewStars-input #star-3 {
+  left: 159px;
+}
+#reviewStars-input #star-4 {
+  left: 212px;
+}
+#reviewStars-input #star-5 {
+  left: 265px;
+}
+/*--------END--STARS--------------*/
+
+
+/*@media*/
+@media only screen and (max-width: 1200px){}
+
+@media only screen and (max-width:990px){}
+
+@media only screen and (max-width:767px){}
+    
+@media only screen and (max-width:520px){}
+/*end @media*/

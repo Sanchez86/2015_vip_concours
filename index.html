@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Template</title>
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    </head>
+<body>
+    <!-- #ENTER -->
+                                
+    <div class="modal" id="enter" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+         <div class="subEnter">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="images/close.png"></button>
+            <h3 id="myModalLabel">вход</h3>
+          </div>
+          <form name="enter">
+          <div class="modal-body">
+            <input type="text" placeholder="Ваше имя" />
+            <input type="text" placeholder="Пароль" />
+          </div>
+          <div class="modal-footer">
+            <input type="submit" class="btn btn-primary submit" value="Войти">
+            <p>
+                <a href="#forgotPassword" role="button" class="" data-toggle="modal">Забыли пароль?</a>
+            </p>
+          </div>
+             </form>
+        </div>
+      </div>
+
+    <!-- END #ENTER -->
+    
+     <!-- #newPassword -->
+                                
+    <div class="modal" id="newPassword" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+         <div class="subEnter">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="images/close.png"></button>
+            <h3 id="myModalLabel">введите новый пароль</h3>
+          </div>
+          <form name="newPassword">
+          <div class="modal-body">
+            <input type="password" placeholder="**********" />
+          </div>
+          <div class="modal-footer">
+            <input type="submit" class="btn btn-primary submit" value="Войти">
+          </div>
+             </form>
+        </div>
+      </div>
+
+    <!-- END .NEW #newPassword -->
+    
+     <!-- #forgotPassword -->
+                                
+    <div class="modal" id="forgotPassword" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+         <div class="subEnter">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="images/close.png"></button>
+            <h3 id="myModalLabel">Забыли пароль?</h3>
+          </div>
+          <form name="enter">
+          <div class="modal-body">
+            <input type="text" placeholder="Email" />
+          </div>
+          <div class="modal-footer">
+            <input type="submit" class="btn btn-primary submit" value="выслать пароль">
+          </div>
+             </form>
+        </div>
+      </div>
+
+    <!-- END .NEW #forgotPassword -->
+    
+    <!-- #registration -->
+                                
+    <div class="modal" id="registration" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+         <div class="subEnter">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="images/close.png"></button>
+            <h3 id="myModalLabel">зарегистрировать новый акаунт</h3>
+          </div>
+          <form name="registration">
+          <div class="modal-body">
+              <div class="floatL">
+                  <img src="images/registration.jpg" />
+                  <a href="#"></a>
+              </div>
+               <div class="regForms ">
+                <input type="email" placeholder="E-mail" />
+                <input type="text" placeholder="Ваше имя" />
+                <input type="password" placeholder="Пароль" />
+                <input type="password" placeholder="Повторите пароль" />
+              </div>
+              <div class="regCheckbox">
+                  <p>
+                    <label><input type="checkbox" checked />Подписаться на новости</label>
+                </p>
+                <p>
+                    <label><input type="checkbox" />Запомнить меня</label>
+                </p>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <input type="submit" class="btn btn-primary submit" value="регистрация">
+          </div>
+             </form>
+        </div>
+      </div>
+
+    <!-- END #registration -->
+    
+<header>
+   <div class="menu">
+        <nav class="navbar navbar-default menu " role="navigation">
+            <div class="container">
+              <div class="row">
+               <div class="col-md-12">
+                <div class="navbar-header">
+                    <button type="button" class="topMenuBox navbar-toggle " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right topMenu">
+                      <li> <a href="#newPassword" role="button" class="" data-toggle="modal">новости</a></li>
+                      <li><a href="#">Архив</a></li>
+                      <li><a href="#">Подписки</a></li>
+                      <li><a href="#">покупки</a></li>
+                      <li><a href="#">конкурсы</a></li>
+                      <li><a href="#">голосования</a></li>
+                      <li><a href="#">контакты</a></li>
+                  </ul>
+                <div class="search">
+                    <input type="text" />
+                    <i class="fa fa-search fa-2x loopa"></i>
+                </div>
+                </div><!-- /.navbar-collapse -->
+
+                </div>
+                </div>
+            </div><!-- /.container -->
+        </nav>
+    </div> 
+    <div class="head">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 contact">
+                   <div class="">
+                        <div class="contBlock">
+                            <div class="phone"><i class="fa fa-phone fa-2x"></i></div>
+                            <div >
+                                <p class="p1">Свяжитесь с нами:</p>
+                                <p class="p2">1-800-234-5677</p>
+                            </div>
+                        </div>
+                        <div class="regBlock"> 
+                           <a href="#registration" role="button" class="" data-toggle="modal">
+                            <div class="subReg">
+                                <div class="registration"><i class="fa fa-pencil-square-o fa-2x"></i></div>
+                                <div>
+                                    <p class="reg">регистрация</p>
+                                </div>
+                            </div>
+                            </a>
+                             <a href="#enter" role="button" class="" data-toggle="modal"><div class="subEnter">
+                                <div class="enter"><i class="fa fa-sign-in fa-2x"></i></div>
+                                <div class="regP">
+                                    <p>войти</p>
+                                    </div>
+                                </div>
+                             </a>
+                              
+                        </div>    
+                  </div>
+                </div>
+                <div class="col-md-4 logo center">
+                    <img src="images/logo.png">
+                </div>
+                <div class="col-md-4 center">
+                    <div class="headerRight">
+                  
+                           <div class="col-md-3 round">
+                            <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
+                                ru
+                               <i class="fa fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">en</a></li>
+                                <li><a href="#">pl</a></li>
+                                <li><a href="#">as</a></li>
+
+                            </ul>
+                            </li>
+                          </div>
+
+                            <div class="col-md-3 round">
+                            <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
+                            &nbsp;&nbsp;$
+                               <i class="fa fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+
+                            </ul>
+                            </li>
+                          </div> 
+                          
+                              <div class="like">
+                                  <div class="subLike">+32</div>
+                              </div>
+                         
+                        
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div> 
+</header>
+
+<div class="reklama">
+    <div class="container subReklama">
+       <div class="row">
+        <div class="col-md-9 boy">
+            <img src="images/boy.jpg" />
+            <div class="per">
+                <p class="percent">25%</p>
+                <p class="profit">от нашей<br> прибыли</p>
+            </div>
+        </div>
+        <div class="col-md-3 subRmenu">
+           <div class="rMenu">Разделы</div>
+            <div>
+                <li class="dropdown rightMenu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
+                    Социальные проекты
+                    <i class="fa fa-chevron-down myChevron-down "></i>
+                    </a>
+                   <ul class="dropdown-menu">
+                        <li><a href="#">Продажи кликов</a></li>
+                        <li><a href="#">Призы за репост</a></li>
+                        <li><a href="#">Социальные проекты</a></li>
+                        <li><a href="#">Призы за репост</a></li>
+                        <li><a href="#">Призы за репост</a></li>
+                        <li><a href="#">Социальные проекты</a></li>
+                        <li><a href="#">Призы за репост</a></li>
+                    </ul>
+                </li>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container links">
+        <div class="row">
+            <div class="col-md-9">
+               <div class="container ">
+                <div class="row">
+                    <div class="col-md-6 links">
+                       <div class="container facebookMarg">
+                            <div class="row">
+                                <div class="col-md-6 links facebook">
+                                    <img src="images/facebook.jpg" />
+                                </div>
+                            </div>
+                        </div>
+                        
+                            <div class="row">
+                                 <div class="col-md-6 vk">
+                                     <img src="images/vk.jpg" />
+                                     <a href="#"> <i class="fa fa-chevron-right myChevron-right "></i></a>
+                                 </div>
+                                 <div class="col-md-6 youtube">
+                                     <img src="images/youtube.jpg" />
+                                 </div>
+                            </div>
+                        
+                    </div>
+                    <div class="col-md-3 dinner">
+                       <img src="images/dinner.jpg" />
+                       <div class="dinnerAbs">
+                        <div>
+                            <p>подпишись -<br> Выиграй </p>
+                            <p>ужин</p>
+                        </div>
+                        <a href="#"> <i class="fa fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+               <div class="row">
+                    <div class="col-md-9 iphone">
+                        <img src="images/iphone.jpg" />
+                        <div class="iphoneAbs">
+                            <div class="floatL">
+                                <p>Получить i-phone бесплатно!</p>
+                                <p>Нет ничего проще</p>
+                                <p>жми <a href="#">Like</a></p>
+                            </div>
+                            <div class="iphoneBtn">
+                                <a href="#"> <i class="fa fa-chevron-right myChevron-right "></i></a>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+               <div class="row subPopular">
+                   <h2>популярные:</h2>
+               </div>
+               <div class="row popular">
+                   <div class="col-md-3">
+                       <img  src="images/popular1.png" />
+                       <p>BETONMONEY KONKURS</p>
+                   </div>
+                  <div class="col-md-3">
+                       <img  src="images/popular2.png" />
+                       <p>ш.у.сТР.И.К.</p>
+                   </div>
+                   <div class="col-md-3">
+                       <img  src="images/popular3.png" />
+                       <p>EXPO-2017</p>
+                   </div>
+               </div>
+
+                </div>   
+            </div>
+            <div class="col-md-3 uchastniki">
+                <h2>Участники</h2>
+                <div class="men">
+                    <div class="angle">
+                        <p>новичек</p>
+                    </div>
+                    <div>
+                        <div id="page-wrap">
+                            <div class="rating">
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                        </div>
+                        <div class="uchastnikiData">
+                            <h2>Олег иванов</h2>
+                            <p>доход за первый<br> месяц составил:</p>
+                            <p class="baks">$250.99</p>
+                        </div>
+                    </div>    
+                </div>
+                <div class="girl">
+                    <div class="angle">
+                        <p>новичек</p>
+                    </div>
+                    <div>
+                        <div id="page-wrap">
+                            <div class="rating">
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                        </div>
+                        <div class="uchastnikiData">
+                            <h2>ОЛЬГА ИВАНОВА</h2>
+                            <p>доход за первый<br> месяц составил:</p>
+                            <p class="baks">$250.99</p>
+                        </div>
+                    </div>    
+                </div>
+                    <div class="men">
+                    <div class="angle">
+                        <p>новичек</p>
+                    </div>
+                    <div>
+                        <div id="page-wrap">
+                            <div class="rating">
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                        </div>
+                        <div class="uchastnikiData">
+                            <h2>Олег иванов</h2>
+                            <p>доход за первый<br> месяц составил:</p>
+                            <p class="baks">$250.99</p>
+                        </div>
+                    </div>    
+                </div>
+                <div class="girl">
+                    <div class="angle">
+                        <p>новичек</p>
+                    </div>
+                    <div>
+                        <div id="page-wrap">
+                            <div class="rating">
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                        </div>
+                        <div class="uchastnikiData">
+                            <h2>ОЛЬГА ИВАНОВА</h2>
+                            <p>доход за первый<br> месяц составил:</p>
+                            <p class="baks">$250.99</p>
+                        </div>
+                    </div>    
+                </div>
+                <div class="row">
+                    <div class="col-md-12 present">
+                        <img src="images/present.jpg" />
+                        <div class="subPresent">
+                            <h3>БАНЕР</h3>
+                            <p>DESCRIPTIONS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="registrationBlock">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 resReg">
+                    <a href="#"><img src="images/regBtn.png" /></a>
+                </div>
+                <div class="col-md-9 discount">
+                    <p>Допонительно 30% скидка</p>
+                    <p>При регистрации</p>
+                    <p>сегодня</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 resLog">
+                    <img src="images/footerIcon.png" />
+                </div>
+                <div class="col-md-9 ">
+                    <div>
+                        <h2>about us</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </div>
+                    <div class="subInformation">
+                        <div class="information">
+                            <h2>Information</h2>
+                            <ul>
+                                <a href="#"><li>About Us</li></a>
+                                <a href="#"><li>Delivery</li></a>
+                                <a href="#"><li>Privacy Policy</li></a>
+                                <a href="#"><li>Terms & Conditions</li></a>
+                            </ul>
+                        </div>
+                        <div class="informationClases">
+                            <input class="footTxt" type="text" placeholder="Your E-Mail here..." />
+                            <input class="footBtn" type="submit" value="Subscribe" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vipkonkurs">
+                <p>vipkonkurs  © 2015</p>
+            </div>
+            <div class="social">
+                <div class="floatL socBg"><i class="fa fa-facebook"></i></div>
+                <div class="floatL socBg"><i class="fa fa-twitter"></i></div>
+                <div class="floatL socBg"><i class="fa fa-instagram"></i></div>
+                <div class="floatL socBg"><i class="fa fa-google-plus"></i></div>
+            </div>
+        </div>
+        
+    </div>   
+</div>
+</body>
+</html>
